@@ -15,10 +15,4 @@ module.exports = {
     "declaration-block-trailing-semicolon": null,
     "no-invalid-double-slash-comments" : null
   }
-  // "plugins": ["stylelint-scss"],
-  // "rules": {
-  //   "at-rule-no-unknown": null,
-  //   "scss/at-rule-no-unknown": true,
-  //   "no-descending-specificity": null
-  // }
 }

@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'correction-examen-multimedia',
+  site_name: '',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'correction examen',
+  site_description: '',
 
   // Your website's URL, used for sitemap
   site_url: '',
