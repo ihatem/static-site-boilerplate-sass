@@ -9,16 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: '',
+  site_name: 'SSS',
 
   // Your website's description, used for favicon meta tags
-  site_description: '',
+  site_description: 'AAA',
 
   // Your website's URL, used for sitemap
   site_url: '',
-
-  // Google Analytics tracking ID (leave blank to disable)
-  googleAnalyticsUA: '',
 
   // The viewport meta tag added to your HTML page's <head> tag
   viewport: 'width=device-width,minimum-scale=1,maximum-scale=1',
