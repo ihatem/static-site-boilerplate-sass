@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: '',
+  site_name: 'quote-generator',
 
   // Your website's description, used for favicon meta tags
-  site_description: '',
+  site_description: 'A small and responsive website that generates random design quotes using the QuotesOnDesign.com API with jquery and SASS as part of the freecodecamp exercice.',
 
   // Your website's URL, used for sitemap
-  site_url: '',
+  site_url: 'https://ihatem.github.io/quote-generator/',
 
   // The viewport meta tag added to your HTML page's <head> tag
   viewport: 'width=device-width,minimum-scale=1,maximum-scale=1',
