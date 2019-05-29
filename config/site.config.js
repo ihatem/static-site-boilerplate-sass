@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'SSS',
+  site_name: '',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'AAA',
+  site_description: '',
 
   // Your website's URL, used for sitemap
   site_url: '',
