@@ -1,6 +1,7 @@
 # Static Site Boilerplate with Sass syntax support
 
-Added customSyntax to stylelint-webpack-plugin with [postcss-sass](https://github.com/AleshaOleg/postcss-sass) parser to support .sass files syntax
+* Forked from : [static-site-boilerplate](https://github.com/ericalli/static-site-boilerplate)
+* Added customSyntax to stylelint-webpack-plugin with [postcss-sass](https://github.com/AleshaOleg/postcss-sass) parser to support .sass files syntax
 
 ## Installation
 
