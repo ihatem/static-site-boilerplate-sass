@@ -1,5 +1,32 @@
-# Introduction
-forked boilerplate (http://staticsiteboilerplate.com) replacing SCSS with SASS and removing useless stuff (googleanalytics, jquery and adding normalize.css by default)
+# Static Site Boilerplate with Sass syntax support
 
-# Issues
-here : https://github.com/ihatem/static-site-boilerplate-sass/issues
+Added customSyntax to stylelint-webpack-plugin with [postcss-sass](https://github.com/AleshaOleg/postcss-sass) parser to support .sass files syntax
+
+## Installation
+
+* clone project
+```bash
+git clone https://github.com/ihatem/static-site-boilerplate-sass
+ ```
+* cd into it 
+ ```bash
+cd static-site-boilerplate-sass
+ ```
+* remove .git and node_modules and reinstall them
+ ```bash
+rm -rf .git && rm -rf node_modules && rm packages-lock.json && npm install --no-optional
+ ```
+* start dev server
+ ```bash
+npm run start
+ ```
+
+ * build dist for prod
+ ```bash
+npm run build:dist
+ ```
+
+ * deploy to gh-pages
+ ```bash
+npm run deploy
+ ```

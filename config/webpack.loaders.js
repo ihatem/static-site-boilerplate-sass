@@ -16,7 +16,7 @@ const html = {
 
 // Javascript loaders
 const js = {
-  test: /\.js(x)$/,
+  test: /\.js(x)?$/,
   exclude: /node_modules/,
   use: [
     {
@@ -64,13 +64,28 @@ const css = {
 };
 
 const sass = {
-  test: /\.s[c|a]ss$/,
+  test: /\.sass$/,
   use: [
     config.env === 'production' ? MiniCssExtractPlugin.loader : styleLoader,
     cssLoader,
     postcssLoader,
     {
       loader: 'sass-loader',
+      options: {
+        sourceMap,
+      },
+    },
+  ],
+};
+
+const less = {
+  test: /\.less$/,
+  use: [
+    config.env === 'production' ? MiniCssExtractPlugin.loader : styleLoader,
+    cssLoader,
+    postcssLoader,
+    {
+      loader: 'less-loader',
       options: {
         sourceMap,
       },
@@ -126,6 +141,7 @@ module.exports = [
   js,
   css,
   sass,
+  less,
   images,
   fonts,
 ];
