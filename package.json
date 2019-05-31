@@ -2,18 +2,18 @@
   "name": "thrivelance",
   "description": "Gather and team up with freelancers around the world",
   "version": "1.0.0",
-  "homepage": "https://ihatem.github.io/thrivelance",
+  "homepage": "https://github.com/ihatem/static-site-boilerplate-sass",
   "author": {
     "name": "Hatem Zehani",
     "url": "https://ihatem.github.io/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ihatem/thrivelance.git"
+    "url": "git+https://github.com/ihatem/static-site-boilerplate-sass.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ihatem/thrivelance/issues"
+    "url": "https://github.com/ihatem/static-site-boilerplate-sass/issues"
   },
   "keywords": [
     "html5",
