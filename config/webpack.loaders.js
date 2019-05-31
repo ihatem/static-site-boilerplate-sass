@@ -7,6 +7,7 @@ const sourceMap = config.env !== 'production';
 // HTML loaders
 const html = {
   test: /\.(html)$/,
+  exclude: /node_modules/,
   use: [
     {
       loader: 'html-loader',
@@ -16,7 +17,7 @@ const html = {
 
 // Javascript loaders
 const js = {
-  test: /\.js(x)?$/,
+  test: /\.js$/,
   exclude: /node_modules/,
   use: [
     {
